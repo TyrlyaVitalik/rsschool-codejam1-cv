@@ -107,7 +107,7 @@ nav {
 
 .education {
 	display: flex;
-	margin: 60px 0;
+	margin: 100px 0;
 	color: #000;
 }
 
@@ -135,6 +135,69 @@ caption {
 .star img {
 	width: 20px;
 	height: 20px;
+}
+
+#contact {
+	background-color: #14171C;	
+	padding: 60px 0; 
+}
+.img {
+	float: left;
+	margin-left: 20px;
+	width: 50px;
+	height: 50px;
+}
+
+.mes {
+	margin-left: 160px;
+	padding-top: 10px;
+}
+
+form {
+	margin-top: 80px;
+}
+
+input {
+	width: 435px;
+	height: 40px;
+	border: none;
+	background-color: #555;
+	padding: 10px;
+	color: #fff;
+	outline: none;
+}
+
+input:focus, textarea:focus {
+    border: 2px solid #FF3228;
+}
+
+textarea {
+	outline: none;
+	color: #fff;
+	border: none;
+ 	background-color: #555;
+  	padding: 10px;
+}
+
+.range {
+	margin: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+.title_mes {
+    float: left;
+    width: 150px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.button {
+	width: 130px;
+}
+
+.button:hover {
+	background-color: #FF3228;
 }
 
 footer {
