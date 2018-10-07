@@ -19,7 +19,6 @@ li {
 body {
 
 	font-family: "Muli", Arial, sans-serif;
-	background-color: grey;
     font-size: 18px;
     color: #fff;
     width: 100%;
@@ -36,20 +35,20 @@ header {
 nav {
 	text-align: center;
 	padding: 20px 0 20px 20px;
-	position: fixed;
+	/*position: fixed;
+	margin-left: 500px;*/
 }
 
-.white {
-	color: #fff;
+.navigation {
+	background-color: #14171C;
 }
-
 .active {
 	color: #FF3228;
 }
 
 .info {
 	text-align: center;
-	padding: 200px 0 280px;
+	padding: 250px 0 340px;
 }
 
 .info h1 {
@@ -60,15 +59,14 @@ nav {
 	font-size: 20px;
 }
 
-.line {
-	border: 1px solid rgba(255, 255, 255, 0.5);
-	width: 40%;
-	margin: 10px auto;
-}
-
 .container {
 	width: 800px;
 	margin: 0 auto;
+}
+
+#about {
+	padding: 40px 0;
+	background-color: #14171C;
 }
 
 .profile {
@@ -96,14 +94,36 @@ nav {
 .sotial {
 	margin-top: 0px;
 }
+.top {
+	margin-top: 20px;
+}
 
+.vk:hover {
+	color: #00f;
+}
+.git:hover {
+	color: #333;
+}
 
+.education {
+	display: flex;
+	margin: 60px 0;
+	color: #000;
+}
 
-footer {
-	background-color: #111;
+.title {
+	border-bottom: 3px solid #FF3228;
+
+}
+
+.text {
+	margin: 10px 0 0 80px;
+	width: 600px;
 }
 
 footer {
+	background-color: #111;
 	text-align: center;
+	padding: 20px 0;
 }
 
