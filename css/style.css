@@ -35,12 +35,15 @@ header {
 nav {
 	text-align: center;
 	padding: 20px 0 20px 20px;
-	/*position: fixed;
-	margin-left: 500px;*/
 }
 
 .navigation {
 	background-color: #14171C;
+}
+
+.navigation a:hover {
+	color: #FF3228;
+	border-bottom: 1px solid #FF3228;
 }
 .active {
 	color: #FF3228;
@@ -104,6 +107,9 @@ nav {
 .git:hover {
 	color: #333;
 }
+.cw:hover {
+	color: #f00;
+}
 
 .education {
 	display: flex;
@@ -139,7 +145,7 @@ caption {
 
 #contact {
 	background-color: #14171C;	
-	padding: 60px 0; 
+	padding: 60px 0 60px 100px; 
 }
 .img {
 	float: left;
@@ -151,6 +157,11 @@ caption {
 .mes {
 	margin-left: 160px;
 	padding-top: 10px;
+}
+
+.error {
+	margin-left: 90px;
+	font-size: 14px;
 }
 
 form {
@@ -194,6 +205,7 @@ textarea {
 
 .button {
 	width: 130px;
+	margin-left: 285px;
 }
 
 .button:hover {
@@ -203,6 +215,6 @@ textarea {
 footer {
 	background-color: #111;
 	text-align: center;
-	padding: 20px 0;
+	padding: 30px 0;
 }
 
