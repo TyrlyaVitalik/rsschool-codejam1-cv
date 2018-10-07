@@ -113,12 +113,28 @@ nav {
 
 .title {
 	border-bottom: 3px solid #FF3228;
-
 }
 
 .text {
 	margin: 10px 0 0 80px;
 	width: 600px;
+	float: left;
+}
+.left {
+	margin-left: 140px;
+}
+
+caption {
+	text-align: left;
+}
+
+.star {
+	float: right;
+}
+
+.star img {
+	width: 20px;
+	height: 20px;
 }
 
 footer {
